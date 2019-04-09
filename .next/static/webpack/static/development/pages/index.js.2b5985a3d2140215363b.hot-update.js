@@ -1,0 +1,79 @@
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/i5dr0id/Desktop/Enye/challenge01/todo-list-app/components/Layout.js";
+
+
+
+
+var Layout = function Layout(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3414026538",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1",
+    className: "jsx-3414026538",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    charSet: "utf-8",
+    className: "jsx-3414026538",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+    className: "jsx-3414026538",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Todo App")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3414026538",
+    __self: this
+  }, "*{box-sizing:border-box;margin:0;padding:0;}html{width:100%;height:100%;}body{background:#eee;width:100%;min-height:100%;}.hmm{margin:auto;-webkit-transition:all .3s;transition:all .3s;-webkit-transform:translateY(100px);-ms-transform:translateY(100px);transform:translateY(100px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2k1ZHIwaWQvRGVza3RvcC9FbnllL2NoYWxsZW5nZTAxL3RvZG8tbGlzdC1hcHAvY29tcG9uZW50cy9MYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU3FCLEFBRzJCLEFBS1gsQUFJUyxBQU1SLFdBVEEsQ0FVTyxJQU5SLE1BVEYsQ0FNVixJQUlpQixJQVJsQixVQUFDLEVBU0MsZUFLNEIsZ0dBQzVCIiwiZmlsZSI6Ii9ob21lL2k1ZHIwaWQvRGVza3RvcC9FbnllL2NoYWxsZW5nZTAxL3RvZG8tbGlzdC1hcHAvY29tcG9uZW50cy9MYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8SGVhZD5cblx0XHRcdDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MVwiIC8+XG4gICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxuICAgICAgPHRpdGxlPlRvZG8gQXBwPC90aXRsZT5cbiAgICA8L0hlYWQ+XG5cdFx0PHN0eWxlIGpzeCBnbG9iYWw+e2Bcblx0XHQqIHsgXG5cdFx0XHRcdGJveC1zaXppbmc6IGJvcmRlci1ib3g7IFxuXHRcdFx0XHRtYXJnaW46IDA7IFxuXHRcdFx0XHRwYWRkaW5nOiAwIFxuXHRcdFx0fVxuXHRcdFx0aHRtbCB7XG5cdFx0XHRcdHdpZHRoOiAxMDAlO1xuXHRcdFx0XHRoZWlnaHQ6IDEwMCU7XG5cdFx0XHR9XG5cdFx0XHRib2R5IHsgXG4gICAgICAgIGJhY2tncm91bmQ6ICNlZWU7XG5cdFx0XHRcdHdpZHRoOiAxMDAlO1xuXHRcdFx0XHRtaW4taGVpZ2h0OiAxMDAlO1xuXHRcdFx0IH1cblxuXHRcdFx0IC5obW0ge1xuXHRcdFx0XHRtYXJnaW46IGF1dG87XG5cdFx0XHRcdHRyYW5zaXRpb246IGFsbCAuM3M7XG5cdFx0XHRcdHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxMDBweCk7XG5cdFx0XHQgfVxuXHRcdGB9XG5cdFx0PC9zdHlsZT5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgIDwvZGl2PlxuXG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0OyJdfQ== */\n/*@ sourceURL=/home/i5dr0id/Desktop/Enye/challenge01/todo-list-app/components/Layout.js */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3414026538" + " " + "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, props.children));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.2b5985a3d2140215363b.hot-update.js.map
