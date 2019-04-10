@@ -38,10 +38,10 @@ const TodoCard = (props) => {
 }
 
 Index.getInitialProps = async function() {
-	const res = await fetch(`https://localhost:${process.env.port || 3000}/api/v1/todo`)
+	const res = await fetch(`http://localhost:3000/api/v1/todo`)
 	const data = await res.json()
 	return {
-		todos: data.todos
+		todos: data
 	}
 }
 

@@ -7,13 +7,33 @@ const app = next({
 })
 const handle = app.getRequestHandler()
 
-const todo = require('./todo.json')
+const todos = [{
+		"id": 1,
+		"title": "Learn React.js"
+	},
+	{
+		"id": 2,
+		"title": "Learn Next.js"
+	},
+	{
+		"id": 3,
+		"title": "Learn Express"
+	},
+	{
+		"id": 4,
+		"title": "Learn Redux"
+	},
+	{
+		"id": 5,
+		"title": "Learn Redux-saga"
+	}
+]
 
 app.prepare().then(() => {
 	const server = express()
 
 	server.get('/api/v1/todo', (req, res) => {
-		let result = JSON.stringify(todo)
+		let result = JSON.stringify(todos)
 		return res.end(result)
 	})
 

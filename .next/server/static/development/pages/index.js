@@ -1318,7 +1318,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default()("https://localhost:".concat(process.env.port || 3000, "/api/v1/todo"));
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default()("http://localhost:3000/api/v1/todo");
 
         case 2:
           res = _context.sent;
@@ -1328,7 +1328,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
         case 5:
           data = _context.sent;
           return _context.abrupt("return", {
-            todos: data.todos
+            todos: data
           });
 
         case 7:
