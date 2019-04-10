@@ -108,59 +108,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/i5dr0id/Desktop/Enye/challenge01/todo-list-app/components/Layout.js";
 
 
 
 
 var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4292311492",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    className: "jsx-4292311492"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1",
-    className: "jsx-4292311492",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    className: "jsx-4292311492"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     charSet: "utf-8",
-    className: "jsx-4292311492",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
+    className: "jsx-4292311492"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-4292311492",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
+    className: "jsx-4292311492"
   }, "Todo App")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "4292311492",
-    __self: this
+    id: "4292311492"
   }, "*{box-sizing:border-box;margin:0;padding:0;}html{width:100%;height:100%;}body{background:#eee;width:100%;min-height:100%;font-family:Lato,sans-serif;}.card{margin:auto;-webkit-transition:all .3s;transition:all .3s;-webkit-transform:translateY(100px);-ms-transform:translateY(100px);transform:translateY(100px);box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font-size:16px;font-weight:400;min-height:200px;overflow:hidden;width:330px;z-index:1;position:relative;background:#fff;border-radius:2px;box-sizing:border-box;border-radius:10px;}.card-title{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:10px;}form{background:#fff;padding:10px;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}form>input{-webkit-flex:1;-ms-flex:1;flex:1;padding-left:3px;border-top-left-radius:6px;border-bottom-left-radius:6px;border:1px solid #ddd;font-size:18px;}form>input:focus{background-color:yellow;border:none;}form>button{border:none;}ul{min-height:100px;margin:0;padding:0;text-align:left;list-style:none;}ul li{padding:10px;background:#FFF;border-bottom:1px solid #EEE;}ul li:nth-child(2n){background:#EEF6FF;}ul li:last-child{border-bottom:none;}.btn-add{color:red;padding:5px 10px;background:rgb(103,58,183);color:rgb(255,255,255);border-top-right-radius:6px;border-bottom-right-radius:6px;}.list-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.btn-remove{height:30px;min-width:30px;width:30px;background:rgb(68,138,255);color:rgb(255,255,255);font-size:12px;border-radius:50%;padding:0;box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2k1ZHIwaWQvRGVza3RvcC9FbnllL2NoYWxsZW5nZTAxL3RvZG8tbGlzdC1hcHAvY29tcG9uZW50cy9MYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU3FCLEFBRzJCLEFBS1gsQUFJUyxBQU9SLEFBb0JDLEFBUUcsQUFPWCxBQVNvQixBQUtiLEFBR0ssQUFPSixBQUtNLEFBR0EsQUFJVCxBQVNHLEFBT0QsVUFmSyxDQWxGTCxDQVdPLEFBaURwQixBQXNDZ0IsQ0E1QkMsR0FsRUwsQUFtQ0UsQ0F3QkosRUFZVixBQUdBLEdBbkZVLENBTVYsQ0FzRGMsRUFTSCxDQTNETSxBQThFVyxBQWdCaEIsRUEzREEsQUErQmtCLEVBMUUvQixFQWlEa0IsR0FVakIsQUFTaUIsRUFtQ1csRUEzRGQsQ0E1Q2QsRUFTOEIsT0F5Q0gsRUFtQlYsRUFrQk8sSUF4RUssQUE0RDdCLE9BNkJ3QixHQWxDeEIsR0E1REMsR0F3Qm1CLEFBNERELEdBM0NXLEFBcUNELFdBaUJiLGVBQ0csRUFqQmEsRUFyQ1YsT0FQRixPQThEVCxRQXRESSxFQXVEd0QsS0FsQnZFLE9BdkR3QixBQTRETyxDQXpDL0IsVUF0Q29HLDZCQThCcEcsaUJBK0RBLDBDQXpFYyxTQW5CQSxJQW9CZCxHQTJEb0IsbUVBOUVHLDBCQStFdkIsb0RBOUVnQixlQUNDLGdCQUNDLGlCQUNELGdCQUNKLFlBQ0YsVUFDUSxrQkFDRixnQkFDRSxrQkFDSSxzQkFDSCxtQkFDcEIiLCJmaWxlIjoiL2hvbWUvaTVkcjBpZC9EZXNrdG9wL0VueWUvY2hhbGxlbmdlMDEvdG9kby1saXN0LWFwcC9jb21wb25lbnRzL0xheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XG5cbmNvbnN0IExheW91dCA9IChwcm9wcykgPT4gKFxuICA8ZGl2PlxuICAgIDxIZWFkPlxuXHRcdFx0PG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xXCIgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8dGl0bGU+VG9kbyBBcHA8L3RpdGxlPlxuICAgIDwvSGVhZD5cblx0XHQ8c3R5bGUganN4IGdsb2JhbD57YFxuXHRcdCogeyBcblx0XHRcdFx0Ym94LXNpemluZzogYm9yZGVyLWJveDsgXG5cdFx0XHRcdG1hcmdpbjogMDsgXG5cdFx0XHRcdHBhZGRpbmc6IDAgXG5cdFx0XHR9XG5cdFx0XHRodG1sIHtcblx0XHRcdFx0d2lkdGg6IDEwMCU7XG5cdFx0XHRcdGhlaWdodDogMTAwJTtcblx0XHRcdH1cblx0XHRcdGJvZHkgeyBcbiAgICAgICAgYmFja2dyb3VuZDogI2VlZTtcblx0XHRcdFx0d2lkdGg6IDEwMCU7XG5cdFx0XHRcdG1pbi1oZWlnaHQ6IDEwMCU7XG5cdFx0XHRcdGZvbnQtZmFtaWx5OiBMYXRvLCBzYW5zLXNlcmlmO1xuXHRcdFx0IH1cblxuXHRcdFx0IC5jYXJkIHtcblx0XHRcdFx0bWFyZ2luOiBhdXRvO1xuXHRcdFx0XHR0cmFuc2l0aW9uOiBhbGwgLjNzO1xuXHRcdFx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMTAwcHgpO1xuXHRcdFx0XHRib3gtc2hhZG93OiAwIDJweCAycHggMCByZ2JhKDAsMCwwLC4xNCksIDAgM3B4IDFweCAtMnB4IHJnYmEoMCwwLDAsLjIpLCAwIDFweCA1cHggMCByZ2JhKDAsMCwwLC4xMik7XG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cdFx0XHRcdGZvbnQtc2l6ZTogMTZweDtcblx0XHRcdFx0Zm9udC13ZWlnaHQ6IDQwMDtcblx0XHRcdFx0bWluLWhlaWdodDogMjAwcHg7XG5cdFx0XHRcdG92ZXJmbG93OiBoaWRkZW47XG5cdFx0XHRcdHdpZHRoOiAzMzBweDtcblx0XHRcdFx0ei1pbmRleDogMTtcblx0XHRcdFx0cG9zaXRpb246IHJlbGF0aXZlO1xuXHRcdFx0XHRiYWNrZ3JvdW5kOiAjZmZmO1xuXHRcdFx0XHRib3JkZXItcmFkaXVzOiAycHg7XG5cdFx0XHRcdGJveC1zaXppbmc6IGJvcmRlci1ib3g7IFxuXHRcdFx0XHRib3JkZXItcmFkaXVzOiAxMHB4O1xuXHRcdFx0fVxuXG5cdFx0XHQuY2FyZC10aXRsZSB7XG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiByb3c7XG5cdFx0XHRcdGp1c3RpZnktY29udGVudDogY2VudGVyO1xuXHRcdFx0XHRwYWRkaW5nOiAxMHB4O1xuXHRcdFx0fVxuXG5cblx0XHRcdGZvcm0ge1xuXHRcdFx0XHRiYWNrZ3JvdW5kOiAjZmZmO1xuXHRcdFx0XHRwYWRkaW5nOiAxMHB4O1xuXHRcdFx0XHR3aWR0aDogMTAwJTtcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IHJvdztcblx0XHRcdH1cblx0XHRcdGZvcm0gPiBpbnB1dCB7XG5cdFx0XHRmbGV4OjE7XG5cdFx0XHRwYWRkaW5nLWxlZnQ6IDNweDtcblx0XHRcdGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDZweDtcblx0XHRcdGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDZweDtcblx0XHRcdGJvcmRlcjogMXB4IHNvbGlkICNkZGQ7XG5cdFx0XHRmb250LXNpemU6IDE4cHg7XG5cdFx0XHR9XG5cblx0XHRcdGZvcm0gPiBpbnB1dDpmb2N1cyB7XG5cdFx0XHRcdFx0YmFja2dyb3VuZC1jb2xvcjogeWVsbG93O1xuXHRcdFx0XHRcdGJvcmRlcjogbm9uZTtcblx0XHRcdH1cblxuXHRcdFx0Zm9ybSA+IGJ1dHRvbiB7XG5cdFx0XHRcdGJvcmRlcjogbm9uZTtcblx0XHRcdH1cblx0XHRcdHVsIHtcblx0XHRcdFx0bWluLWhlaWdodDogMTAwcHg7XG5cdFx0XHRcdG1hcmdpbjogMDtcblx0XHRcdFx0cGFkZGluZzogMDtcblx0XHRcdFx0dGV4dC1hbGlnbjogbGVmdDtcblx0XHRcdFx0bGlzdC1zdHlsZTogbm9uZTtcblx0XHRcdH1cblx0XHRcdHVsIGxpIHtcblx0XHRcdFx0cGFkZGluZzogMTBweDtcblx0XHRcdFx0YmFja2dyb3VuZDogI0ZGRjtcblx0XHRcdFx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFRUU7XG5cdFx0XHR9XG5cdFx0XHR1bCBsaTpudGgtY2hpbGQoMm4pIHtcblx0XHRcdFx0YmFja2dyb3VuZDogI0VFRjZGRjtcblx0XHRcdH1cblx0XHRcdHVsIGxpOmxhc3QtY2hpbGQge1xuXHRcdFx0XHRib3JkZXItYm90dG9tOiBub25lO1xuXHRcdFx0fVxuXG5cdFx0XHQuYnRuLWFkZCB7XG5cdFx0XHRcdGNvbG9yOiByZWQ7XG5cdFx0XHRcdHBhZGRpbmc6IDVweCAxMHB4O1xuXHRcdFx0XHRiYWNrZ3JvdW5kOiByZ2IoMTAzLDU4LDE4Myk7XG5cdFx0XHRcdGNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO1xuXHRcdFx0XHRib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogNnB4O1xuXHRcdFx0XHRib3JkZXItYm90dG9tLXJpZ2h0LXJhZGl1czogNnB4O1xuXHRcdFx0fVxuXG5cdFx0XHQubGlzdC1pdGVtIHtcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246cm93O1xuXHRcdFx0XHRqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG5cdFx0XHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdFx0XHR9XG5cblx0XHRcdC5idG4tcmVtb3Zle1xuXHRcdFx0XHRoZWlnaHQ6IDMwcHg7XG5cdFx0XHRcdG1pbi13aWR0aDogMzBweDtcblx0XHRcdFx0d2lkdGg6IDMwcHg7XG5cdFx0XHRcdGJhY2tncm91bmQ6IHJnYig2OCwxMzgsMjU1KTtcblx0XHRcdFx0Y29sb3I6IHJnYigyNTUsMjU1LDI1NSk7XG5cdFx0XHRcdGZvbnQtc2l6ZTogMTJweDtcblx0XHRcdFx0Ym9yZGVyLXJhZGl1czogNTAlO1xuXHRcdFx0XHRwYWRkaW5nOiAwO1xuXHRcdFx0XHRib3gtc2hhZG93OiAwIDFweCAxLjVweCAwIHJnYmEoMCwwLDAsLjEyKSwgMCAxcHggMXB4IDAgcmdiYSgwLDAsMCwuMjQpO1xuXHRcdFx0fVxuXHRcdGB9XG5cdFx0PC9zdHlsZT5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgIDwvZGl2PlxuXG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0OyJdfQ== */\n/*@ sourceURL=/home/i5dr0id/Desktop/Enye/challenge01/todo-list-app/components/Layout.js */"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4292311492" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    },
-    __self: this
+    className: "jsx-4292311492" + " " + "container"
   }, props.children));
 };
 
@@ -179,62 +146,28 @@ var Layout = function Layout(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/i5dr0id/Desktop/Enye/challenge01/todo-list-app/components/List.js";
 
 
 var List = function List(props) {
   var removeItem = function removeItem(index) {
     props.setItems(function (items) {
       var list = items.filter(function (item, j) {
-        return index !== j;
+        return index !== item.id;
       });
       return list;
     });
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, props.items.map(function (item, index) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, props.items.map(function (item) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      key: index,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
+      key: item.id
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "list-item",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, item)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      className: "list-item"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, item.title)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       className: "btn-remove",
       onClick: function onClick() {
-        return removeItem(index);
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
-      },
-      __self: this
+        return removeItem(item.id);
+      }
     }, "X")));
   }));
 };
@@ -287,6 +220,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "core
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/library/fn/promise");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithHoles.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithHoles.js ***!
@@ -327,6 +271,58 @@ function _arrayWithoutHoles(arr) {
 
     return arr2;
   }
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
 }
 
 /***/ }),
@@ -467,6 +463,18 @@ __webpack_require__.r(__webpack_exports__);
 function _toConsumableArray(arr) {
   return Object(_arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || Object(_nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__["default"])();
 }
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/regenerator/index.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/regenerator/index.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ "regenerator-runtime");
+
 
 /***/ }),
 
@@ -1226,38 +1234,41 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_List__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/List */ "./components/List.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_List__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/List */ "./components/List.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7__);
 
 
-var _jsxFileName = "/home/i5dr0id/Desktop/Enye/challenge01/todo-list-app/pages/index.js";
 
 
 
 
 
-var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(TodoCard, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+
+
+
+var Index = function Index(props) {
+  return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(TodoCard, {
+    todos: props.todos
   });
 };
 
-var TodoCard = function TodoCard() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
-      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState, 2),
+var TodoCard = function TodoCard(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(''),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState, 2),
       term = _useState2[0],
       setTerm = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])([]),
-      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState3, 2),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(props.todos),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState3, 2),
       items = _useState4[0],
       setItems = _useState4[1];
 
@@ -1270,77 +1281,63 @@ var TodoCard = function TodoCard() {
 
     if (term) {
       setTerm('');
-      setItems([].concat(Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(items), [term]));
+      setItems([].concat(Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_2__["default"])(items), [{
+        id: items.length + 1,
+        title: term
+      }]));
     }
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "card",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    className: "card-title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, "TODO LIST")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("form", {
+  return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], null, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "card"
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: "card-title"
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h2", null, "TODO LIST")), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("form", {
     className: "",
-    onSubmit: onSubmit,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("input", {
+    onSubmit: onSubmit
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
     placeholder: "Enter todo",
     value: term,
-    onChange: onChange,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("button", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
-    className: "btn-add",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "+"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    onChange: onChange
+  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", null, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h2", {
+    className: "btn-add"
+  }, "+"))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_List__WEBPACK_IMPORTED_MODULE_5__["default"], {
     items: items,
-    setItems: setItems,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
+    setItems: setItems
   })));
 };
 
+Index.getInitialProps =
+/*#__PURE__*/
+Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+  var res, data;
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_7___default()("https://localhost:".concat(process.env.port || 3000, "/api/v1/todo"));
+
+        case 2:
+          res = _context.sent;
+          _context.next = 5;
+          return res.json();
+
+        case 5:
+          data = _context.sent;
+          return _context.abrupt("return", {
+            todos: data.todos
+          });
+
+        case 7:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _callee);
+}));
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
@@ -1401,6 +1398,28 @@ module.exports = require("core-js/library/fn/is-iterable");
 
 /***/ }),
 
+/***/ "core-js/library/fn/promise":
+/*!*********************************************!*\
+  !*** external "core-js/library/fn/promise" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/promise");
+
+/***/ }),
+
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
+
+/***/ }),
+
 /***/ "next/head":
 /*!****************************!*\
   !*** external "next/head" ***!
@@ -1420,6 +1439,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "regenerator-runtime":
+/*!**************************************!*\
+  !*** external "regenerator-runtime" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("regenerator-runtime");
 
 /***/ })
 

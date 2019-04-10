@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import List from '../components/List'
 import Layout from '../components/Layout'
+import fetch from 'isomorphic-unfetch'
 
-const Index = () => {
-	return <TodoCard />;
+const Index = (props) => {
+	return <TodoCard todos={props.todos} />;
 }
 
-const TodoCard = () => {
+const TodoCard = (props) => {
 	const [term, setTerm] = useState('');
-	const [items, setItems] = useState([])
+	const [items, setItems] = useState(props.todos)
 	
 	const onChange = event => setTerm(event.target.value)
 
@@ -16,7 +17,7 @@ const TodoCard = () => {
     event.preventDefault();
 		if (term) {
 			setTerm('')
-			setItems([...items, term])
+			setItems([...items, {id:items.length+1, title:term}])
 		}
 	}
 	
@@ -36,5 +37,12 @@ const TodoCard = () => {
 	)
 }
 
+Index.getInitialProps = async function() {
+	const res = await fetch(`https://localhost:${process.env.port || 3000}/api/v1/todo`)
+	const data = await res.json()
+	return {
+		todos: data.todos
+	}
+}
 
 export default Index;
