@@ -4,6 +4,7 @@ const List = props =>
 
 	const removeItem = (index) => {
 	props.setItems(items => {
+		console.log({items})
 	const list = items.filter((item,j) => index !== j)
 	return list
 	})
